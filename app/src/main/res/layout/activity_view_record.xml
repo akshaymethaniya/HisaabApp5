@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_view"
+    tools:context="com.akshaymethaniya.hisaabapp.ViewRecord">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Name"
+            android:textColor="#000000"
+            android:id="@+id/textViewName"
+            android:layout_weight="20" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="To Pay"
+            android:id="@+id/textViewToPay"
+            android:layout_weight="20"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="To Take"
+            android:id="@+id/textViewToTake"
+            android:layout_weight="20"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text="Date"
+            android:id="@+id/date"
+            android:layout_weight="20"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:text=""
+            android:id="@+id/status"
+            android:layout_weight="20"/>
+
+    </LinearLayout>
+    <ListView
+        android:layout_below="@id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:id="@+id/listView" />
+</RelativeLayout>

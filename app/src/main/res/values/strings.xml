@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HisaabApp</string>
+    <string name="addRecord">Add Record</string>
+    <string name="viewRecord">View Records</string>
+    <string name="updateRecord">Update Record</string>
+    <string name="removeRecord">Remove Record</string>
+    <string name="name">Name    :</string>
+    <string name="deleteAllRecord">Delete All Records</string>
+    <string name="Amount">Amount :</string>
+    <string name="toTake">To Take</string>
+    <string name="toPay">To Pay</string>
+    <string name="Desc">Description :</string>
+    <string name="date">Choose Date </string>
+    <string-array name="entries">
+
+    </string-array>
+    <string name="title_activity_add_basic">AddBasicActivity</string>
+</resources>
